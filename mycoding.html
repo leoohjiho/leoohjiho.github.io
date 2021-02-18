@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>테스트</title>
+    <style>
+        #h1link {
+            font-size: 40px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            border-bottom: 2px solid black;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        #grid1 {
+            display: grid;
+            grid-template-columns: 150px 1fr;  
+        }
+
+        #grid2 {
+            padding-left: 40px;    
+        }
+
+        .alink1 {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        ol {
+            border-right: 2px solid black;
+            padding: 0px;
+            padding-left: 50px;
+            padding-top: 25px;
+            margin: 0px;
+            width: 115px;
+        }
+
+
+        @media screen and (max-width: 700px) {
+            ol {
+                border-right: hidden;
+                padding-top: 0px;
+            }
+
+            #h1link {
+                border-bottom: hidden;
+                padding-bottom: 0px;
+            }
+
+            #grid1 {
+            display: grid;
+            grid-template-columns: hidden;  
+            }
+
+            #grid2 {
+                padding-left: hidden;    
+            }
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <h1 id="h1link"><a>대제목</a></h1>
+    <div id="grid1">
+        <ol>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+            <a class="alink1"><li>테스트용</li></a>
+        </ol>
+    <div id="grid2">    
+            <h2>
+                소제목
+            </h2>
+            <p>
+                본문 (일단 아무내용)aaaaaaaaaaaaaaaaaaaaa
+            </p>
+    </div>
+</body>
+</html>
